@@ -1,0 +1,155 @@
+/* You can add global styles to this file, and also import other style files */
+
+.nav-link {
+  font-size: 15px;
+  color: black;
+}
+.form {
+    padding: 15px;
+    background: #bee1ff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    margin-top: 25px;
+    display: inline-table;
+    min-width: 320px !important;
+  }
+
+  .form-container .h2-hd{
+    min-width: 320px !important;
+    background-color: gray;
+  }
+  .form-group label, .form label {
+    margin-bottom: 5px;
+  }
+  .menu-sidebar button {
+    width: -moz-available !important;
+    width: 100% !important;
+    padding: 1rem;
+  }
+  .form input.form-control {
+    margin-bottom: 15px;
+  }
+  /* .h2-hd {
+    font-size: 25px;
+    margin-top: 25px;
+    background: #bee1ff;
+    width: 314px;
+    text-align: center;
+    padding: 10px 10px 15px;
+    font-weight: inherit;
+    box-shadow: 0 0 2px;
+  } */
+  .h2-hd {
+      font-size: 20px;
+      margin-top: 5px;
+      background: #bee1ff;
+      text-align: center;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #0d6efd;
+  }
+  .card {
+    background: #f2f2f2 !important;
+    border-radius: 0 !important;
+    font-size: 15px !important;
+  }
+  .side-bar {
+    max-width: 320px;
+  }
+  app-sidebar {
+    width: 320px;
+    float: left;
+  }
+  .split-major {
+    margin-left: 320px;
+  }
+  button {
+    margin-top: 15px;
+    background: #0d6efd;
+    padding: 10px 15px 12px;
+    border-radius: 5px !important;
+    border: unset;
+    color: white;
+  }
+  button:hover {
+    background: #021635;
+  color: white;
+  }
+  .extra-links a:first-child {
+    font-weight: 600;
+    margin-right: 25px;
+    float: left;
+    font-weight: 600;
+    margin-right: 25px;
+    margin-top: 15px !important;
+  }
+  .extra-links a:nth-child(2) {
+    font-weight: 600;
+    float: right;
+    margin-right: 25px;
+    font-weight: 600;
+    margin-right: 25px;
+    margin-top: 15px !important;
+  }
+  .container h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* .container h2 {
+    font-size: 26px;
+    margin-top: 20px;
+  } */
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 7px 10px;
+    background: #fffcc8 !important;
+}
+.card img {
+  width: -webkit-fill-available;
+  height: auto;
+  max-height: 250px;
+  overflow: hidden;
+}
+.featured-items {
+  margin-bottom: 25px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.featured-items > div {
+  margin-right: 15px;
+}
+.container button:first-child {
+  margin-bottom: 15px;
+}
+.banners[_ngcontent-ng-c3063986682]{
+  margin: 25px 0;
+}
+  .ng-pristine {
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .item-chip-widget {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .chip-widget {
+    padding: 5px 15px !important;
+    min-width: 320px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #0d6efd;
+  }
+  .featured-bx button {
+    margin-bottom: 15px;
+  }
+  .form-inline .btn {
+    padding-top: 0;
+    max-height: 38px;
+  }
+  app-user-login {
+    height: 100vh;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+.split {
+  display: flex;
+  flex-direction: row;
+}
+.split-minor {
+  flex: 22%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.split-major {
+  flex: 75%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.container {
+  padding: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.body {
+  background-color: grey;
+}
+.form {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input,
+select,
+option {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #66bfbf;
+  border: none;
+  color: #fafafa;
+  &:hover {
+    transform: scale(105%);
+    transition: 200ms ease-in-out;
+  }
+}
+
+.all-items {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";

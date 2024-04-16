@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 style="margin-top: 50px; text-align: center;">{{title}}</h1>
+    <div style="text-align: center;">
+        <input class="form-control form-control-lg" type="text" style="width: 100%; max-width: 300px; margin: 0 auto;" placeholder="Enter new text" #task/>
+        <br><br>
+        <button class="btn btn-dark" style="display: block; margin: 0 auto;" (click)="addTask(task.value)">Add Task</button>
+    </div>
+    <br><br>
+    <div class="task-box">
+        <ul *ngFor="let item of todoList">
+            <li>{{item.name}} <button class="btn btn-danger" (click)="removeTask(item.id)">Remove Task</button></li>
+        </ul>
+    </div>
+</div>
